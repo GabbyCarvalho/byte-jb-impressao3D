@@ -96,9 +96,8 @@ const FAQS = [
 ]
 
 // ── Número e e-mail — altere aqui ───────────────────────────
-const WPP_NUMBER = '5599999999999'  // ← troque pelo número real (só dígitos, com DDI)
-const EMAIL_CONTATO = 'contato@bytejb.com.br' // ← troque pelo e-mail real
-
+const WPP_NUMBER = '554896058800'  // 
+const EMAIL_CONTATO = 'bytejba@gmail.com' // 
 // ════════════════════════════════════════════════════════════
 
 // ── imports das imagens dos produtos ──
@@ -269,10 +268,6 @@ export default function App() {
       <section className="hero" id="inicio">
         <div className="hero-bg-grid" />
         <div className="hero-content">
-          <div className="hero-badge">
-            <div className="hero-badge-dot" />
-            Campo Largo, PR, Brasil
-          </div>
           <h1>
             Sua ideia <span className="accent-word">impressa</span><br />
             em 3D e laser
@@ -287,14 +282,6 @@ export default function App() {
         </div>
         <div className="hero-image">
           <img src={logoText} alt="BYTEJB Arte" />
-        </div>
-        <div className="hero-stats">
-          {[['3D','Impressão'],['Laser','Gravação'],['100%','Personalizado']].map(([n,l]) => (
-            <div className="stat-item" key={l}>
-              <span className="stat-number">{n}</span>
-              <span className="stat-label">{l}</span>
-            </div>
-          ))}
         </div>
       </section>
 
@@ -504,7 +491,7 @@ export default function App() {
                 <div className="contact-icon ci-wpp"><IconWhatsApp size={22} color="#25d366" /></div>
                 <div className="contact-info">
                   <span className="contact-label">WhatsApp</span>
-                  <span className="contact-value">(99) 9 9999-9999</span>
+                  <span className="contact-value">(48) 9605-8800 </span>
                 </div>
               </a>
               <a href={`mailto:${EMAIL_CONTATO}`} className="contact-link">
@@ -514,7 +501,7 @@ export default function App() {
                   <span className="contact-value">{EMAIL_CONTATO}</span>
                 </div>
               </a>
-              <a href="https://instagram.com/bytejb" className="contact-link" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.instagram.com/bytejb?igsh=YXY2bWprM25obGQ=" className="contact-link" target="_blank" rel="noopener noreferrer">
                 <div className="contact-icon ci-ig"><IconInstagram size={20} /></div>
                 <div className="contact-info">
                   <span className="contact-label">Instagram</span>
@@ -558,7 +545,6 @@ export default function App() {
       <footer>
         <div className="footer-inner">
           <div className="logo-area">
-            <div className="logo-mark">BJ</div>
             <div className="logo-text">
               <span className="logo-name">BYTEJB</span>
               <span className="logo-sub">Impressões 3D &amp; Laser</span>
@@ -571,8 +557,10 @@ export default function App() {
             <a href="https://instagram.com/bytejb" className="social-btn" target="_blank" rel="noopener noreferrer" title="Instagram">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="2" y="2" width="20" height="20" rx="5" /><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" /><line x1="17.5" y1="6.5" x2="17.51" y2="6.5" /></svg>
             </a>
-            <a href={`mailto:${EMAIL_CONTATO}`} className="social-btn" title="E-mail">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" /><polyline points="22,6 12,13 2,6" /></svg>
+            <a href="https://www.facebook.com/share/1DRtwrfACi/?mibextid=wwXIfr" className="social-btn" target="_blank" rel="noopener noreferrer" title="Facebook">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.99 3.66 9.13 8.44 9.88v-6.99h-2.54V12h2.54V9.79c0-2.5 1.49-3.89 3.77-3.89 1.09 0 2.23.2 2.23.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.78l-.44 2.89h-2.34v6.99C18.34 21.13 22 16.99 22 12z" />
+              </svg>
             </a>
           </div>
         </div>
