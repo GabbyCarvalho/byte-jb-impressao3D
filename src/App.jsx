@@ -96,7 +96,7 @@ const FAQS = [
 ]
 
 // ── Número e e-mail — altere aqui ───────────────────────────
-const WPP_NUMBER = '5516999999999'  // ← troque pelo número real (só dígitos, com DDI)
+const WPP_NUMBER = '5599999999999'  // ← troque pelo número real (só dígitos, com DDI)
 const EMAIL_CONTATO = 'contato@bytejb.com.br' // ← troque pelo e-mail real
 
 // ════════════════════════════════════════════════════════════
@@ -456,7 +456,7 @@ export default function App() {
               </div>
               <div className="form-group">
                 <label>WhatsApp / Telefone *</label>
-                <input type="tel" name="telefone" placeholder="(16) 99999-9999" value={form.telefone} onChange={handleField} />
+                <input type="tel" name="telefone" placeholder="(99) 99999-9999" value={form.telefone} onChange={handleField} />
               </div>
               <div className="form-group">
                 <label>E-mail</label>
@@ -504,7 +504,7 @@ export default function App() {
                 <div className="contact-icon ci-wpp"><IconWhatsApp size={22} color="#25d366" /></div>
                 <div className="contact-info">
                   <span className="contact-label">WhatsApp</span>
-                  <span className="contact-value">(16) 9 9999-9999</span>
+                  <span className="contact-value">(99) 9 9999-9999</span>
                 </div>
               </a>
               <a href={`mailto:${EMAIL_CONTATO}`} className="contact-link">
@@ -576,7 +576,7 @@ export default function App() {
             </a>
           </div>
         </div>
-        <p className="footer-copy">© 2026 BYTEJB — Joubert Bittencourt. Todos os direitos reservados. | Araraquara/SP</p>
+        <p className="footer-copy">© 2026 BYTEJB — Joubert Bittencourt. Todos os direitos reservados. | Campo Largo/PR</p>
       </footer>
 
       {/* ── TOAST ── */}
